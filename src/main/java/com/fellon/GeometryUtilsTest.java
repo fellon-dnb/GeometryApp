@@ -1,6 +1,6 @@
 package com.fellon;
 
-import com.fellon.geometry.GeometryUtils;
+import com.fellon.geometry.*;
 
 import java.util.Scanner;
 
@@ -19,7 +19,7 @@ public class GeometryUtilsTest {
             case 2:
                 System.out.println("конвертируем в миллиметры! введи сантиметры: ");
                 double cm2 = scanner.nextDouble();
-                System.out.println("результат: " + GeometryUtils.centsToМilimetrs(cm2) + " мм.");
+                System.out.println("результат: " + GeometryUtils.centsToMilimetrs(cm2) + " мм.");
                 break;
             default:
                 System.out.println("неверный выбор");

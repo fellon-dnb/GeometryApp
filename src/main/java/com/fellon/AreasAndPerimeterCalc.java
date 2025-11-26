@@ -1,6 +1,6 @@
 package com.fellon;
 
-public class App 
+public class AreasAndPerimeterCalc
 {
 public static String area = "\nплощадь ";
     public static String perimeter = "\nпериметр ";
